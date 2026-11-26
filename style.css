@@ -276,8 +276,29 @@ h3 {
     padding-block: 8px;
 }
 
-.certifications li + li {
+.certifications li {
+    border-top: 1px solid var(--borda);
+    padding-top: 20px;
+    min-width: 0;
+}
+
+.certifications h3 {
+    margin-bottom: 8px;
+}
+
+.certifications details {
     margin-top: 12px;
+    font-size: 0.875rem;
+}
+
+.certifications summary {
+    cursor: pointer;
+    color: var(--vinho);
+}
+
+.certifications details p {
+    margin-top: 8px;
+    overflow-wrap: anywhere;
 }
 
 .certifications span {
